@@ -1,0 +1,11 @@
+POST http://localhost:5000/api/dosomething
+content-type: application/json
+Authorization: jwt abc-xyz
+custom-header1: header ABC
+custom-header2: header XYZ
+
+{
+	"name": "John",
+	"email": "john@gmail.com",
+	"message": "Hi John"
+}
